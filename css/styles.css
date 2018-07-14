@@ -1,0 +1,187 @@
+﻿/*COMMON*/
+body {
+    padding: 20px;
+    color: #7d97ad;
+}
+
+
+.div-pad {
+    padding: 5px;
+}
+
+
+.capital {
+    text-transform: uppercase;
+}
+
+
+hr {
+    display: block;
+    border: 2px solid #7d97ad;
+    margin: 10px;
+}
+
+
+a {
+    color: #2d3c49;
+}
+
+
+/*HEADER*/
+header {
+    max-height: 100px;
+    color: #2d3c49;
+}
+
+
+.name {
+}
+
+
+.left {
+    height: auto;
+}
+
+
+.logo {
+    height: 100px;
+    padding: 5px;
+    background-color: #4a9973;
+    margin: 5px;
+    margin-left: -5px;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+}
+
+
+.right {
+    text-align: right;
+    max-height: 100px;
+}
+
+
+/*ASIDE*/
+aside {
+    color: #2d3c49;
+    opacity: 0.8;
+    font-weight: lighter;
+}
+
+
+.green {
+    width: 45%;
+    padding-top: 45%;
+    background: #4a9973;
+    margin: auto;
+}
+
+
+.dark-grey {
+    width: 45%;
+    padding-top: 45%;
+    background: #2d3c49;
+    margin: auto;
+}
+
+
+.grey {
+    width: 45%;
+    padding-top: 45%;
+    background: #7d97ad;
+    margin: auto;
+}
+
+
+/*ARTICLE*/
+.big-pic {
+    width: 100%;
+}
+
+
+.work-title {
+    padding-left: 20px;
+}
+
+
+.work-contents {
+    color: #2d3c49;
+}
+
+
+.image {
+    margin: auto;
+}
+
+
+.source {
+    margin-top: 50px;
+    height: 40px;
+}
+
+
+.bottom-logo {
+    height: 20px;
+    float: right;
+}
+
+
+/*MEDIA*/
+@media screen and (max-width: 990px) {
+    h3 {
+        font-size: xx-large;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    h4 {
+        font-size: x-large;
+    }
+
+
+    aside {
+        margin-top: 40px;
+    }
+
+
+    .name {
+        font-weight: bold;
+    }
+
+
+    .title {
+        font-size: xx-large;
+    }
+
+
+    .work-content {
+        padding-bottom: 40px;
+        font-size: xx-large;
+    }
+
+
+    .work-title {
+        font-size: xx-large;
+    }
+
+
+    footer, 
+    .bottom-logo {
+        height: 50px;
+        font-size: xx-large;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .name {
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+    .title {
+        font-size: medium;
+    }
+}
